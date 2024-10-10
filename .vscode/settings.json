@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "trunk.io",
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "git.ignoreLimitWarning": true,
+  "gitlens.advanced.fileHistoryFollowsRenames": true,
+  "gitlens.codeLens.enabled": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  // Extension Settings
+  "files.associations": {
+    ".TODO": "markdown"
+  },
+  "material-icon-theme.folders.associations": {
+    ".taskfiles": "utils",
+  },
+}

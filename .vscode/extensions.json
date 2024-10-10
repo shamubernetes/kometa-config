@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "albert.tabout",
+    "bierner.github-markdown-preview",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-emoji",
+    "bierner.markdown-footnotes",
+    "bierner.markdown-mermaid",
+    "bierner.markdown-preview-github-styles",
+    "bierner.markdown-yaml-preamble",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "elagil.pre-commit-helper",
+    "fcrespo82.markdown-table-formatter",
+    "github.copilot",
+    "github.vscode-github-actions",
+    "gruntfuggly.todo-tree",
+    "jgclark.vscode-todo-highlight",
+    "pkief.material-icon-theme",
+    "redhat.vscode-yaml",
+    "task.vscode-task",
+    "trunk.io",
+  ]
+}
