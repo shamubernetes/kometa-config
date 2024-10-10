@@ -11,7 +11,8 @@ libraries:
     - folder: /config/collections/movies
     overlay_files:
     - remove_overlays: false
-    - folder: /config/overlays/common
+    - file: /config/overlays/common/media_info
+    - file: /config/overlays/common/audience_rating
     - folder: /config/overlays/movies
     settings:
       asset_directory: /assets/Movies
