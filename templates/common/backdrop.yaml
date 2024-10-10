@@ -1,0 +1,26 @@
+# trunk-ignore-all(trunk-yls/no-yls)
+templates:
+  backdrop:
+    conditionals:
+      file:
+        conditions:
+        - key: gradient_top
+          builder_level: episode
+          value: config/overlays/images/gradients/gradient_episode_top.png
+        - key: gradient_top
+          value: config/overlays/images/gradients/gradient_top.png
+        - key: gradient_bottom
+          builder_level: episode
+          value: config/overlays/images/gradients/gradient_episode_bottom.png
+        - key: gradient_bottom
+          value: config/overlays/images/gradients/gradient_bottom.png
+    optional:
+    - builder_level
+    - use_<<key>>
+    run_definition:
+    - <<use_<<key>>>>
+    builder_level: <<builder_level>>
+    plex_all: true
+    overlay:
+      name: <<overlay_name>>
+      file: <<file>>

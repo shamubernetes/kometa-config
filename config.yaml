@@ -1,20 +1,18 @@
 # trunk-ignore-all(trunk-yls/no-yls)
 libraries:
   Movies:
+    external_templates:
+    - folder: /config/templates/common
+    - folder: /config/templates/movies
     collection_files:
     - default: basic
     - default: imdb
+    - folder: /config/collections/common
     - folder: /config/collections/movies
     overlay_files:
-    - default: runtimes
-      template_variables:
-        vertical_offset: 37
-        horizontal_align: center
-        horizontal_offset: 140
-        text: ''
-        back_width: 205
-        back_color: '#00000000'
     - remove_overlays: false
+    - folder: /config/overlays/common
+    - folder: /config/overlays/movies
     settings:
       asset_directory: /assets/Movies
       prioritize_assets: true
@@ -33,7 +31,7 @@ settings:
   download_url_assets: true
   show_missing_season_assets: false
   show_missing_episode_assets: false
-  show_asset_not_needed: true
+  show_asset_not_needed: false
   sync_mode: sync
   minimum_items: 1
   default_collection_order:

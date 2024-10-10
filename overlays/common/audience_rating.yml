@@ -1,0 +1,20 @@
+# trunk-ignore-all(trunk-yls/no-yls)
+overlays:
+  audience_score_high_backdrop:
+    variables: {key: audience_score_high_backdrop, weight: 500, group: backdrop}
+    template: [{name: audience_score}]
+  audience_score_mid_backdrop:
+    variables: {key: audience_score_mid_backdrop, weight: 400, group: backdrop}
+    template: [{name: audience_score}]
+  audience_score_low_backdrop:
+    variables: {key: audience_score_low_backdrop, weight: 300, group: backdrop}
+    template: [{name: audience_score}]
+  audience_score_high:
+    variables: {key: audience_score_high, weight: 500, group: score}
+    template: [{name: audience_score}]
+  audience_score_mid:
+    variables: {key: audience_score_mid, weight: 400, group: score}
+    template: [{name: audience_score}]
+  audience_score_low:
+    variables: {key: audience_score_low, weight: 300, group: score}
+    template: [{name: audience_score}]
