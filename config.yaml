@@ -4,7 +4,7 @@ libraries:
     collection_files:
     - default: basic
     - default: imdb
-    - folder: collections/movies
+    - folder: /config/collections/movies
     overlay_files:
     - default: runtimes
       template_variables:
