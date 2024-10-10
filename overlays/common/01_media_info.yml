@@ -226,6 +226,11 @@ templates:
           value: config/overlays/images/gradients/gradient_episode_top.png
         - key: gradient_top
           value: config/overlays/images/gradients/gradient_top.png
+        - key: gradient_bottom
+          builder_level: episode
+          value: config/overlays/images/gradients/gradient_episode_bottom.png
+        - key: gradient_bottom
+          value: config/overlays/images/gradients/gradient_bottom.png
     optional:
     - builder_level
     - use_<<key>>
@@ -241,7 +246,9 @@ overlays:
   gradient_top:
     variables: {key: gradient_top}
     template: [{name: backdrop}]
-
+  gradient_bottom:
+    variables: {key: gradient_bottom}
+    template: [{name: backdrop}]
   DV:
     variables: {key: DV, weight: 220, type: video}
     template: [{name: standard}, {name: codec_info}]
