@@ -69,14 +69,14 @@ plex:
 radarr:
   url: http://radarr.arrs.svc.cluster.local
   token: <<RADARR_API_KEY>>
-  add_missing: false
+  add_missing: true
   add_existing: false
   root_folder_path: /media/Movies
   monitor: true
   availability: announced
   quality_profile: "HD Bluray + WEB"
   tag: kometa
-  search: false
+  search: true
   radarr_path:
   plex_path:
   upgrade_existing: false
@@ -84,7 +84,7 @@ radarr:
 sonarr:
   url: http://sonarr.arrs.svc.cluster.local
   token: <<SONARR_API_KEY>>
-  add_missing: false
+  add_missing: true
   add_existing: false
   root_folder_path: /media/TV
   monitor: all
@@ -93,7 +93,7 @@ sonarr:
   series_type: standard
   season_folder: true
   tag: kometa
-  search: false
+  search: true
   cutoff_search: false
   sonarr_path:
   plex_path:
