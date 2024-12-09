@@ -1,0 +1,16 @@
+# trunk-ignore-all(trunk-yls/no-yls)
+templates:
+  collections:
+    smart_label: title.asc
+    sort_title: "!010_<<collection_name>>"
+    url_poster: <<poster>>
+    delete_not_scheduled: true
+    visible_home: true
+    visible_shared: true
+collections:
+  Marvel Universe:
+    template:
+      name: collections
+      poster: https://theposterdb.com/api/assets/5912
+    imdb_list:
+    - https://www.imdb.com/list/ls031310794/
