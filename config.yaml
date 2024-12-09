@@ -1,4 +1,4 @@
-# trunk-ignore-all(trunk-yls/no-yls)
+# yaml-language-server: $schema=https://raw.githubusercontent.com/kiliantyler/Kometa/update-jsonschema/json-schema/config-schema.json
 libraries:
   Movies:
     external_templates:
@@ -51,14 +51,12 @@ settings:
   ignore_ids:
   ignore_imdb_ids:
   item_refresh_delay: 0
-  playlist_sync_to_user: all
-  playlist_exclude_user:
+  playlist_sync_to_users: all
+  playlist_exclude_users:
   playlist_report: false
   verify_ssl: true
   custom_repo: ""
-  check_nightly: false
   show_unconfigured: true
-  playlist_exclude_users:
 
 plex:
   url: http://plex.media.svc.cluster.local:32400
@@ -77,7 +75,7 @@ radarr:
   monitor: true
   availability: announced
   quality_profile: "HD Bluray + WEB"
-  tag:
+  tag: kometa
   search: false
   radarr_path:
   plex_path:
@@ -94,7 +92,7 @@ sonarr:
   language_profile: English
   series_type: standard
   season_folder: true
-  tag:
+  tag: kometa
   search: false
   cutoff_search: false
   sonarr_path:
@@ -109,7 +107,7 @@ tmdb:
   apikey: <<TMDB_API_KEY>>
   language: en
   cache_expiration: 60
-  region:
+  region: US
 
 github:
   token: <<GITHUB_TOKEN>>
@@ -133,3 +131,9 @@ trakt:
     scope: public
     created_at: 1728515405
   pin:
+
+anidb:
+  client: <<ANIDB_CLIENT>>
+  version: 1
+  language: en
+  cache_expiration: 60
