@@ -9,11 +9,11 @@ libraries:
     - default: imdb
     - folder: /config/collections/common
     - folder: /config/collections/movies
-    overlay_files:
-    - remove_overlays: false
-    - file: /config/overlays/common/media_info
-    - file: /config/overlays/common/audience_rating
-    - folder: /config/overlays/movies
+    # overlay_files:
+    # - remove_overlays: false
+    # - file: /config/overlays/common/media_info
+    # - file: /config/overlays/common/audience_rating
+    # - folder: /config/overlays/movies
     settings:
       asset_directory: /assets/Movies
       prioritize_assets: true
