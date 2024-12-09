@@ -78,8 +78,8 @@ collections:
     - https://www.imdb.com/list/ls027454200/
     - https://www.imdb.com/list/ls066252180/
     - https://www.imdb.com/list/ls031348568/
-    trakt_list:
-    - https://trakt.tv/users/movistapp/lists/christmas-movies
+    # trakt_list:
+    # - https://trakt.tv/users/movistapp/lists/christmas-movies
 
   New Year's Day Movies:
     template:
