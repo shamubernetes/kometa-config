@@ -1,19 +1,11 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/kiliantyler/Kometa/update-jsonschema/json-schema/config-schema.json
 libraries:
   Movies:
-    external_templates:
-    - folder: /config/templates/common
-    - folder: /config/templates/movies
     collection_files:
     - default: basic
     - default: imdb
     - folder: /config/collections/common
     - folder: /config/collections/movies
-    overlay_files:
-    - remove_overlays: true
-    # - file: /config/overlays/common/media_info
-    # - file: /config/overlays/common/audience_rating
-    # - folder: /config/overlays/movies
     settings:
       asset_directory: /assets/Movies
       prioritize_assets: true

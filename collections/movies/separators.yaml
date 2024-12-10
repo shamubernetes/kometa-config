@@ -1,0 +1,19 @@
+external_templates:
+- file: /config/templates/collections.yaml
+- repo: /config/templates/dynamic_collections.yaml
+
+collections:
+  # Each needs a placeholder movie, can't be empty collections
+  # Movie MUST be in the library, so try to use a popular movie likely to be on any given server
+  "Awards":
+    template: {name: Award, level: "++++++++++"}
+    summary: "Awards"
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    schedule:
+    - daily
+    minimum_items: 1
+    delete_below_minimum: false # Don't delete the placeholder
+    url_poster: https://raw.githubusercontent.com/nwithan8/configs/master/plex/pmm/images/separators/awards.jpg
+    tmdb_movie: https://www.themoviedb.org/movie/13 # Forrest Gump (1994)
