@@ -1,6 +1,3 @@
-# external_templates:
-#   git: PMM/collections
-
 templates:
   Promoted:
     default:
@@ -10,9 +7,10 @@ templates:
     - poster_url
     sort_title: 000_+<<level>>_<<sort_title_name>>
     sync_mode: sync
-    schedule:
-    - daily # Override this in the collection
+    delete_not_scheduled: true
     visible_library: true
+    visible_shared: true
+    visible_home: true
     url_poster: <<poster_url>>
 
   InMemoriamActor:
@@ -26,6 +24,8 @@ templates:
         actor: tmdb
       sort_title: 001_+<<level>>_<<sort_title_name>>
       sync_mode: append
+    delete_not_scheduled: true
+    minimum_items: 3
     visible_library: true
     visible_shared: true
     visible_home: true
@@ -41,6 +41,8 @@ templates:
         director: tmdb
       sort_title: 002_+<<level>>_<<sort_title_name>>
       sync_mode: append
+    delete_not_scheduled: true
+    minimum_items: 3
     visible_library: true
     visible_shared: true
     visible_home: true
@@ -110,8 +112,8 @@ templates:
     url_poster: <<poster_url>>
     # minimum_items: 3  # cannot be used in combination with builder_level
     # delete_not_scheduled: true
-    visible_home: false
-    visible_shared: false
+    visible_home: true
+    visible_shared: true
     visible_library: false
 
   Collection:

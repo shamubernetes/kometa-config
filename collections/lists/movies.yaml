@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=https://json.schemastore.org/yamllint
+external_templates:
+- file: /config/templates/collections
+- file: /config/templates/dynamic_collections

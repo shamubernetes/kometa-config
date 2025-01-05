@@ -4,8 +4,25 @@ libraries:
     collection_files:
     - default: basic
     - default: imdb
-    - folder: /config/collections/common
-    - folder: /config/collections/movies
+    - folder: /config/collections/actors/movies
+    - folder: /config/collections/awards/movies
+    - folder: /config/collections/best/movies
+    - folder: /config/collections/countries/movies
+    - folder: /config/collections/decades/movies
+    - folder: /config/collections/genres/movies
+    - folder: /config/collections/history/movies
+    - folder: /config/collections/holidays/movies
+    - folder: /config/collections/languages/movies
+    - folder: /config/collections/lists/movies
+    - folder: /config/collections/memoriam/movies
+    - folder: /config/collections/networks/movies
+    - folder: /config/collections/new/movies
+    - folder: /config/collections/promoted/movies
+    - folder: /config/collections/random/movies
+    - folder: /config/collections/recommendations/movies
+    - folder: /config/collections/separators/movies
+    - folder: /config/collections/trending/movies
+    - folder: /config/collections/years/movies
     settings:
       asset_directory: /assets/Movies
       prioritize_assets: true

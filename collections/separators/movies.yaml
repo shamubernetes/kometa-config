@@ -1,6 +1,7 @@
+# yaml-language-server: $schema=https://json.schemastore.org/yamllint
 external_templates:
-- file: /config/templates/collections.yaml
-- repo: /config/templates/dynamic_collections.yaml
+- file: /config/templates/collections
+- file: /config/templates/dynamic_collections
 
 collections:
   # Each needs a placeholder movie, can't be empty collections
