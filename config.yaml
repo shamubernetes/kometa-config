@@ -4,25 +4,25 @@ libraries:
     collection_files:
     - default: basic
     - default: imdb
-    - folder: /config/collections/actors/movies
-    - folder: /config/collections/awards/movies
-    - folder: /config/collections/best/movies
-    - folder: /config/collections/countries/movies
-    - folder: /config/collections/decades/movies
-    - folder: /config/collections/genres/movies
-    - folder: /config/collections/history/movies
-    - folder: /config/collections/holidays/movies
-    - folder: /config/collections/languages/movies
-    - folder: /config/collections/lists/movies
-    - folder: /config/collections/memoriam/movies
-    - folder: /config/collections/networks/movies
-    - folder: /config/collections/new/movies
-    - folder: /config/collections/promoted/movies
-    - folder: /config/collections/random/movies
-    - folder: /config/collections/recommendations/movies
-    - folder: /config/collections/separators/movies
-    - folder: /config/collections/trending/movies
-    - folder: /config/collections/years/movies
+    - file: /config/collections/actors/movies
+    - file: /config/collections/awards/movies
+    - file: /config/collections/best/movies
+    - file: /config/collections/countries/movies
+    - file: /config/collections/decades/movies
+    - file: /config/collections/genres/movies
+    - file: /config/collections/history/movies
+    - file: /config/collections/holidays/movies
+    - file: /config/collections/languages/movies
+    - file: /config/collections/lists/movies
+    - file: /config/collections/memoriam/movies
+    - file: /config/collections/networks/movies
+    - file: /config/collections/new/movies
+    - file: /config/collections/promoted/movies
+    - file: /config/collections/random/movies
+    - file: /config/collections/recommendations/movies
+    - file: /config/collections/separators/movies
+    - file: /config/collections/trending/movies
+    - file: /config/collections/years/movies
     settings:
       asset_directory: /assets/Movies
       prioritize_assets: true
